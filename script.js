@@ -1,55 +1,49 @@
+const portfolio = document.getElementById('portfolio');
 
+portfolio.innerHTML = `
+  <h1>Vaishnavi Jade</h1>
+  <p class="lead">Passionate Computer Science Student | Full-Stack Developer | Tech Enthusiast</p>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated software developer with a keen interest in full-stack web development. I enjoy building innovative solutions and continuously improving my skills.</p>
+  </section>
 
-document.addEventListener("DOMContentLoaded", function () {
-    const portfolioHTML = `
-      <header>
-        <h2>Sowmya.D</h2>
-        <p>Web Developer | Software Engineer</p>
-      </header>
-  
-      <section id="about">
-        <h3>About Me</h3>
-        <p>Hello! I'm Sowmya, a passionate web developer with expertise in frontend and backend development. I enjoy solving complex problems and building interactive websites and applications.</p>
-      </section>
-  
-      <section id="skills">
-        <h3>Skills</h3>
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>Python, Java, C++</li>
-          <li>React, Node.js</li>
-        </ul>
-      </section>
-  
-      <section id="projects">
-        <h3>Projects & Work Experience</h3>
-        <ul>
-          <li><strong>Project 1:</strong> <a href="https://github.com/Sowmya968/login-page.git" target="_blank">GitHub Link</a></li>
-          <li><strong>Project 2:</strong> <a href="https://github.com/Sowmya968/MavenWeb.git" target="_blank">GitHub Link</a></li>
-        </ul>
-      </section>
-  
-      <section id="feedback">
-        <h3>Feedback & Achievements</h3>
-        <ul>
-          <li>Winner of "Best Web Developer" at ABC Hackathon 2023.</li>
-          <li>Successfully built and launched 20+ client projects.</li>
-        </ul>
-      </section>
-  
-      <section id="education">
-        <h3>Education</h3>
-        <p><strong>Degree:</strong> Bachelor's degree in computer science</p>
-        <p><strong>Institution:</strong> Keshav Memorial Institute of Technology</p>
-      </section>
-  
-      <section id="contact">
-        <h3>Contact</h3>
-        <p>Email: <a href="mailto:dsowmya968@gmail.com">dsowmya968@gmail.com</a></p>
-        <p>Phone: 8639025982</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sowmya-dokka" target="_blank">https://www.linkedin.com/in/sowmya-dokka</a></p>
-      </section>
-    `;
-  
-    document.body.innerHTML = portfolioHTML;
-  });
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, C++, JavaScript</li>
+      <li>Full Stack Web Development</li>
+      <li>Node.js, React, MongoDB</li>
+      <li>Data Structures & Algorithms</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://github.com/vaishnavijade/Smart-Basketball-Score-Board">Smart Basketball Score Board</a></li>
+      <li><a href="https://github.com/vaishnavijade/Drone-Swarm">Drone Swarm Navigation</a></li>
+      <li><a href="https://github.com/vaishnavijade/Mechanic-AI">Mechanic AI: A Virtual Car Assistant</a></li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <p>🏆 Winner - 1st Prize at Bull and Code Hackathon, IIT Bombay.</p>
+    <p>🎖️ Recognized for excellence in Full Stack Development at college tech fest.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>B.Tech in Computer Science - Keshav Memorial Institute of Technology</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:Vaishnavijade21@gmail.com">Vaishnavijade21@gmail.com</a></p>
+    <p>Phone: +91-9876543210</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jade-vaishnavi04/">linkedin.com/in/jade-vaishnavi04</a></p>
+  </section>
+`;
+
